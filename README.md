@@ -41,27 +41,34 @@ Prerequisites
 - Git
 
 1. Clone the repository
-
+```bash
 git clone https://github.com/Charvi426/SNUHive.git
 cd SNUHive
-
+```
 2. Backend Setup
--cd backend
--npm install
+```
+cd backend
+npm install
+```
 
 Create a .env file and configure:
 
--DB_HOST=localhost
--DB_USER=your_mysql_user
--DB_PASSWORD=your_mysql_password
--DB_NAME=snu_hive
--JWT_SECRET=your_jwt_secret
+```
+DB_HOST=localhost
+DB_USER=your_mysql_user
+DB_PASSWORD=your_mysql_password
+DB_NAME=snu_hive
+JWT_SECRET=your_jwt_secret
+```
 
 Start the backend:
--node index.js
+```
+node index.js
+```
 
 3. Frontend Setup
-
--cd frontend
--npm install
--npm run dev
+```
+cd frontend
+npm install
+npm run dev
+```
