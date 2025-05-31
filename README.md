@@ -63,7 +63,7 @@ JWT_SECRET=your_jwt_secret
 
 Start the backend:
 ```
-node index.js
+node backend.js
 ```
 
 3. Frontend Setup
